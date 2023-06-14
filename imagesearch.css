@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(32, 33, 36);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 40px);
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 35px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.search-input-container {
+    position: relative;
+}
+
+.search-input {
+    width: 510px;
+    height: 35px;
+    padding: 5px 30px 5px 10px;
+    font-size: 16px;
+    border: 0.5px solid #ccc;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #e8eaed;
+    background-image: url('searchicon.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    padding-left: 40px;
+}
+
+.search-input:hover{
+    background-color: #535353;
+    border: none !important;
+}
+
+.search-camera-icon {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.search-mic-icon {
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    transform: translateY(-50%);
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.search-button {
+    background-color: #303134;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.search-button:hover {
+    outline: 1px solid #5f6368; 
+}
+
+nav {
+    background-color: transparent;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#imgs {
+    color: #4487f6;
+    position: absolute;
+    top: calc(50% + -80px);
+    right: calc(50% + -115px);
+    transform: translate(50%, -50%);
+}

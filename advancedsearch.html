@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="advancedsearch.css">
+    </head>
+    <body>
+        <img src="googleimglogo.png" alt="Google Logo" class="logo">
+        <span id="advs">Advanced Search</span>
+        <hr>
+        <form action="https://www.google.com/search?q=search_keywords&as_epq=exact_keywords&as_oq=any_keywords&as_eq=none_keywords">
+            <h3>Find pages with...</h3>
+            <div class="advanced-search">
+                <div class="input-group">
+                    <label>all these words:</label>
+                    <input type="text" name="q">
+                    <div class="instruction">
+                        Type the important words: <span class="mono">tricolor rat terrier</span>
+                    </div>
+                    </div>
+                <div class="input-group">
+                    <label>this exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                    <div class="instruction">
+                        Put exact words in quotes: <span class="mono">"rat terrier"</span>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>any of these words: </label>
+                    <input type="text" name="as_oq">
+                    <div class="instruction">
+                        Type OR between all the words you want: <span class="mono">miniature OR standard</span>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>none of these words:</label>
+                    <input type="text" name="as_eq">
+                    <div class="instruction">
+                        Put a minus sign just before words that you don't want: <span class="mono">-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label></label>
+                    <input type="submit" class="submit" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+                <li><a href="imagesearch.html">Image Search</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
